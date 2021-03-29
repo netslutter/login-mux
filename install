@@ -1,0 +1,13 @@
+#!/data/data/com.termux/files/usr/bin/bash
+echo "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈"
+echo " 𝕮𝖔𝖉𝖊𝖉 𝕭𝖞 𝕻𝖚𝖓𝖐𝖊𝖗-𝕭𝖍𝖆𝖎 "
+echo "≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈"
+rm $PREFIX/etc/bash.bashrc
+cp bash.bashrc $PREFIX/etc
+cp login.sh $PREFIX/etc
+apt update
+apt-get install -y ruby
+apt-get install -y espeak
+gem install lolcat
+echo " "
+echo " Exit to see the changes "
