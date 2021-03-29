@@ -20,4 +20,4 @@ cd login-mux
 bash install
 exit
 ```
-Credit to : (Nemesis sky)[https://github.com/Nemesis-sky]
+Credit to : (Nemesis sky){https://github.com/Nemesis-sky}
