@@ -15,7 +15,7 @@ cd $HOME
 apt update
 apt upgrade -y
 apt install git -y
-git clone https://github.com/Punker-Bhai/login-mux.git
+git clone https://github.com/hackerspunk/login-mux.git
 cd login-mux
 bash install
 exit
